@@ -88,7 +88,7 @@ nav{
     color: #fff;
     font-size: 22px;
     position: fixed;
-    background: rgba(0, 0, 0, 0); 
+    background: rgba(0, 0, 0, 0.9); 
     height: 100vh;
     overflow-x: hidden;
     z-index: 1;
