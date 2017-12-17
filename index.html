@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document Hello</title>
+    
+    <!-- external css -->
+    <link  rel="stylesheet" href="style.css" /> 
+   
+    
+    <!-- external javascript -->
+   <script rel="text/javascript" src="jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"/>
+
+    
+</head>	
+<body>
+    
+    <!-- navigation hover start -->
+    <div class="wrapper">
+        
+        <div class="shine">
+        
+    <nav id="open" class="close">
+        <a id="close" >X</a>
+        <a>Home  <i class="fa fa-home"></i></a>
+        <a>Blog  <i class="fa fa-newspaper-o"></i>  </a>
+        <a>Forum  <i class="fa fa-group"></i>  </a>
+        <a>Listen  <i class="fa fa-music"></i></a>
+        <a>About   <i class="fa fa-info-circle"></i></a> 
+        <a>Contact   <i class="fa fa-weixin"></i></a>
+    </nav>
+    
+    <!-- navigation hover ends -->
+
+ 
+    <!-- menu icon start -->
+    
+    <div class="menuIcon"> 
+    <span id="menu-button">&#9776;</span>  
+    </div> 
+    
+   <!-- menu icon end  -->
+
+    
+    <!--  form start -->
+    
+       <form name="myForm" class="myForm">
+    <p>Only the best experiences in a beat ! 
+        <br><button>Download</button></p>
+           
+        </form>
+    
+            
+    <!--  form ends -->
+            
+    </div>
+        
+        <!-- MessageBlock Starts-->    
+    <div class="messageBlock">
+    
+    <p id="lead">Welcome to the collection</p>
+    <p>Since the days of the world falls,my passion of tech beseech me untimely, <br>as passion can be i look to th wonders the world can bring forth,<br>
+        i fight not becuase i can, but becuase of the love i have for thy passion.
+        <br><strong>- Henry Asante</strong>
+        </p>
+
+    
+    </div>
+        <!-- MessageBlock ends-->
+    
+        <div class="boxes">
+        
+       <img src="assets/arts/1.jpg"/> 
+       <img src="assets/arts/2.jpeg"/> 
+       <img src="assets/arts/3.jpg"/> 
+       <img src="assets/arts/4.jpg"/> 
+       <img src="assets/arts/5.jpg"/> 
+       <img src="assets/arts/6.jpg"/> 
+
+        </div>
+    
+    
+            </div>
+    <script>+
+        
+    $("document").ready( function(){
+    
+    $("#menu-button").click(function(evt){
+    $("#open").removeClass("close");   
+    });
+        
+        
+        
+     $("#close").click(function(evt){
+        $("#open").addClass("close");    
+     });
+
+    
+    });
+
+    </script>
+        
+
+
+</body>
+</html>
