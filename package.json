@@ -1,0 +1,19 @@
+{
+  "name": "music-download-web-app-",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DA music download app which allows you to download albums and more",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b["
+  },
+  "keywords": [
+    "Music",
+    "App"
+  ],
+  "author": "Henry Asante",
+  "license": "MIT"
+}

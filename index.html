@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Document Hello</title>
+	<title>Blob Music</title>
     
     <!-- external css -->
-    <link  rel="stylesheet" href="style.css" /> 
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/animate.css" />
+    
+ <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+     
+
    
     
     <!-- external javascript -->
-   <script rel="text/javascript" src="jquery-1.10.2.js"></script>
-    <link rel="stylesheet" href="assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"/>
-
-    
+   <script src="assets/js/jquery-1.10.2.js"></script> 
 </head>	
 <body>
     
@@ -20,8 +22,8 @@
         
         <div class="shine">
         
-    <nav id="open" class="close">
-        <a id="close" >X</a>
+    <nav id="open" class="close animated slideInLeft">
+        <a id="close">x</a>
         <a>Home  <i class="fa fa-home"></i></a>
         <a>Blog  <i class="fa fa-newspaper-o"></i>  </a>
         <a>Forum  <i class="fa fa-group"></i>  </a>
@@ -36,7 +38,9 @@
     <!-- menu icon start -->
     
     <div class="menuIcon"> 
-    <span id="menu-button">&#9776;</span>  
+    <span id="menu-button">&#9776;</span> 
+        
+        
     </div> 
     
    <!-- menu icon end  -->
@@ -44,11 +48,14 @@
     
     <!--  form start -->
     
-       <form name="myForm" class="myForm">
+       <div name="myForm" class="myForm">
     <p>Only the best experiences in a beat ! 
-        <br><button>Download</button></p>
+    <br>
+    <button href="#lead" class="animated flash">download</button>
+        
+        </p>
            
-        </form>
+        </div>
     
             
     <!--  form ends -->
@@ -58,30 +65,82 @@
         <!-- MessageBlock Starts-->    
     <div class="messageBlock">
     
-    <p id="lead">Welcome to the collection</p>
-    <p>Since the days of the world falls,my passion of tech beseech me untimely, <br>as passion can be i look to th wonders the world can bring forth,<br>
-        i fight not becuase i can, but becuase of the love i have for thy passion.
-        <br><strong>- Henry Asante</strong>
-        </p>
+    <p id="lead">Welcome to the collection <i class="fa fa-music"></i></p>
 
     
     </div>
+        
         <!-- MessageBlock ends-->
     
-        <div class="boxes">
+        <div class="boxes ">
         
-       <img src="assets/arts/1.jpg"/> 
-       <img src="assets/arts/2.jpeg"/> 
-       <img src="assets/arts/3.jpg"/> 
-       <img src="assets/arts/4.jpg"/> 
-       <img src="assets/arts/5.jpg"/> 
-       <img src="assets/arts/6.jpg"/> 
-
+<img src="assets/images/covers/1.jpg" alt="Album Art"  />  
+<img src="assets/images/covers/2.jpeg" alt="Album Art"/>
+<img src="assets/images/covers/3.jpg" alt="Album Art"/>
+<img src="assets/images/covers/4.jpg" alt="Album Art"/>
+<img src="assets/images/covers/5.jpg" alt="Album Art" />
+<img src="assets/images/covers/6.jpg" alt="Album Art"/>
+  
         </div>
     
+                
+
     
-            </div>
-    <script>+
+    
+    <div id="newsletter">
+        
+    <label for="email">Subscribe to get all the cool updates ! </label><br><br>
+        
+    <input  placeholder="Enter your email here" name="email"/><button>Subscribe <i class="fa fa-paper-plane"></i></button>
+    
+    </div>
+    
+    
+    
+           
+         <div class="twins">
+             
+            <span id="twin1">
+                <p>Only the best</p>
+            </span>
+            
+            <span id="twin2">
+                <p>Buy the best</p>
+            </span>
+             
+            <span id="twin3">
+                <p>Share the best</p>             
+            </span>
+      
+         </div>
+
+        
+        
+        <div class="app">
+       
+    <p>Get notified, get our apps today<i></i></p>
+    <img id="badges" src="assets/images/apple-store.svg"/>
+           
+    <img id="badges" src="assets/images/google-store.svg"/>
+             
+        
+        </div>
+        
+        
+        
+        
+        
+        <footer>
+        
+            <p>&copy; Coded with love <i class="fa fa-heart"></i> Henry Asante&#153;</p>
+            
+        </footer>
+        
+
+    
+    </div><!-- complete wrapper -->
+
+    <script>
         
     $("document").ready( function(){
     
