@@ -14,5 +14,3 @@ A Music Download App with many Features such as a blog,forum and Chat all integr
 
 
 
-#Contribute your build to it.
-#I really need hands to make this posible.
